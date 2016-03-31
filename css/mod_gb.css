@@ -1,0 +1,218 @@
+﻿.orangebtn{ display:block; width:100px; height:28px; line-height:28px; background:#f2784e; color:#fff; text-align:center;}
+.bluebtn{ display:block; width:80px; height:28px; line-height:28px; background:#70a8e0; color:#fff; text-align:center;}
+.graybtn{ display:block; width:80px; height:28px; line-height:28px; background:#aeb2b8; color:#fff; text-align:center;}
+.orangebtn:hover, .bluebtn:hover, .graybtn:hover{ opacity:.9;}
+.bluetext{ display:inline-block; padding:0 5px; border:1px solid; border-color:transparent; line-height:22px; color:#2666C0;}
+.graytext{ display:inline-block; padding:0 5px; border:1px solid; border-color:transparent; line-height:22px; color:#9A9A9A; cursor:default;}
+.bluetext:hover{ border-color:#F1774E; color:#F85B24;}
+.bluetext i,.graytext i{ vertical-align:-2px;}
+
+
+.none { display:none; }
+/* --------------------------GridView-------------------------- */
+/*
+.gridview{position: relative;border: 0 solid #eee;overflow: hidden;color: #000;font-size:12px;}
+.gridview .gird_colHead{position: relative;background: #fafafa;border: 1px solid #688cae;border-top-left-radius:2px;border-top-right-radius:2px;border-bottom: 0;overflow: hidden;}
+.gridview .colHeadBox{padding-right: 40px;float: left;}
+.gridview .gird_colHead table{border-right: 1px solid #fff;border-collapse: collapse;border-spacing: 0;}
+.gridview .gird_colHead tr{ background:url("../images/gridview/trHead_bg.png") repeat-x;  }
+.gridview .gird_colHead tr,.gridview .gird_table td{ border-bottom:1px solid #688cae; }
+.gridview .gird_colHead th,.gridview .gird_table td{ text-align: left;overflow: hidden;vertical-align: top!important;padding-left: 0;padding-right: 0;border-right: 1px solid #A6C4E8;border-left: 0px solid #fff;}
+.gridview .gird_colHead th{font-weight: 400;height: 24px;cursor: default;white-space: nowrap;overflow: hidden;}
+.gridview .gird_colHead th div,.gridview .gird_table td div{border-left: 0 solid #fff;padding: 5px;}*/
+/* grid drag */
+/*
+
+/*
+/* grid table */
+/*.gridview .gird_table{ overflow:auto;border: 1px solid #688cae;border-top: 0;background: #fff;overflow: auto;position: relative; }
+.gridview .gird_table table{margin-bottom: 10px;border-bottom: 1px solid #688cae;border-collapse: collapse;border-spacing: 0;}
+.gridview .gird_table tr{background:#F8FCFF;}
+.gridview .gird_table tr.two{ background:#e5eef7;}
+.gridview .gird_table td{border-bottom: 1px solid #A6C4E8;vertical-align: top;white-space: nowrap;}
+.gridview .gird_table input.text {width:80px; }
+.gridview .gird_table tr:hover{background:#E1F5BA;border-left:0px solid #eef8ff;border-bottom:1px dotted #a8d8eb}
+.gridview .gird_table td div{border-top: 0 solid #fff;padding-bottom: 4px;line-height:20px; }
+.gridview .gird_table .grid_update,.gridview .gird_table .grid_delete{ text-indent:10px; display:inline-block;width:78px;height:22px;background:url(../images/gridview/grid_table_bg.png) no-repeat;text-decoration:none;color:#333; }
+.gridview .gird_table .grid_delete{background-position:0px -46px;}
+.gridview .gird_table .grid_update:hover{background-position:0px -23px; }
+.gridview .gird_table .grid_delete:hover{ background-position:0px -69px }
+.gridview .gird_table .detial{ padding:10px; }*/
+/* grid page */
+/*.gridview .pGroup{float: left;background: none;height: 22px;margin: 0 5px;}
+.gridview .btnseparator{float: left;height: 20px;border-left: 1px solid #ccc;border-right: 1px solid #fff;margin: 1px;}
+.gridview .gird_page select,.gridview .pageNum{float:left;}
+.gridview .gird_page{float: left;margin: 3px 3px 3px 0px; background:url(../images/gridview/page_bg.png) repeat-x;padding:4px;border:1px solid #ccc;border-radius:2px; }
+.gridview .gird_page span{position: relative;top: 3px;overflow: visible;}
+.gridview .pageNum a { display:block;padding:4px;width:14px;height:14px;text-indent:-9999px;float:left;border: 0;cursor: pointer;overflow: hidden; }
+.gridview .pageNum a i { background:url(../images/gridview/grid_table_bg.png) no-repeat;display:block; }
+.gridview .pageNum a.first i{width:10px;height:13px;background-position:-25px -92px; }
+.gridview .pageNum a.prev i{width:8px;height:13px;background-position:-17px -92px;}
+.gridview .pageNum a.next i{width:8px;height:13px;background-position:-45px -92px;}
+.gridview .pageNum a.last i{width:10px;height:13px;background-position:-34px -92px;}
+.gridview .pageNum a.refresh i{width:16px;height:13px;background-position:0px -92px;}
+.gridview .pageNum a.next {padding:4px 0px 4px 6px;}
+.gridview .pageNum a.refresh{padding:4px 2px;width:18px;height:14px;}
+.gridview .pageNum a:hover{width:12px;height:12px;border:1px solid #ccc;cursor:pointer;}
+.gridview .pageNum a.refresh:hover{ width:16px;height:12px;border:1px solid #ccc;cursor:pointer;}
+.gridview .pageNum input{ width:30px;float:left;vertical-align: text-top;}*/
+
+/* --------------------------GridView_finance-------------------------- */
+.gridview { position:relative; font-size:12px;}
+.gridview{ border-collapse:collapse; background:#fff; font-size:12px; color:#333; overflow:hidden;}
+.gridview input[type="checkbox"]{ margin:0 2px 0 0; vertical-align:-3px;}
+.gridview input[type="text"]{ width:70px; height:16px; padding:1px 2%; border:1px solid #ddd; line-height:16px; font-size:12px;}
+.gridview select{ height:20px; border:1px solid #ddd;}
+.gridview table{ border-collapse:collapse;word-wrap:break-word;}
+.gridview th{ cursor:pointer;height:30px; padding:0 5px; border-bottom:1px solid #ddd; border-right:1px solid #ddd; background:#e6e6e6; font-weight:normal; text-align:left;}
+.gridview td{ height:30px; padding:0 5px; border-bottom:1px solid #ddd; border-right:1px solid #ddd;}
+
+.gridview .icon_up, .icon_down{ display:inline-block; width:9px; height:9px; border:1px solid #2666bf; line-height:8px; font-size:12px; font-style:normal; color:#2666bf; cursor:pointer; overflow:hidden;text-decoration:none;font-family: '@微软雅黑';}
+.gridview .icon_down{ border-color:#fa5b25; color:#fa5b25; text-indent:2px;}
+
+.gridview .colHeadBox{padding-right: 40px;float: left;}
+.gridview .grid_colHead,.gridview .grid_other{ position:relative; border:1px solid #ddd; border-bottom:none; overflow:hidden;}
+.gridview .grid_other{ border-bottom:1px solid #ddd; }
+.gridview .grid_table{ border:1px solid #ddd; border-top:none; overflow: auto;}
+.gridview .grid_table tr.two{ background:#f5f5f5;}
+.gridview .grid_table tr:hover,.gridview .grid_table tr.two:hover{ background:#fae8d4;}
+.gridview .grid_table tr.selected,.gridview .grid_table tr.selected:hover { background:#dce8fa; }
+.gridview .sub_table th{ border-color:#A4C7EB; background:#DCEBFA;}
+.gridview .sub_table td{ border-color:#A4C7EB;}
+.gridview .sub_table tr.two{ background:#F2F9FF;}
+.gridview .sub_table tr:hover{ background:#fae8d4;}
+.gridview .sub_table tr.selected { background:#dce8fa; }
+.gridview th.grid_template { padding:0 10px; }
+.gridview td.grid_template { padding:0 0 0 10px; }
+.gridview td.grid_template a:hover{ opacity:.9; }
+.gridview .grid_template a{float:left;margin-right:10px;}
+.gridview th i{ font-size: 14px;color: #1771BF;margin-left:4px;vertical-align:-1px; }
+.gridview th i.icon-arrow-up{ color:#E65639; }
+.gridview input.text { width:90%; }
+.gridview input.maskText{ float:left; height:18px; padding:3px 5px; border:1px solid #ccc; border-right:none; line-height:18px;}
+.gridview a.maskBtn{text-decoration:none;float:left; width:30px; height:26px; line-height:26px; background:#70a8e0; font-weight:bold; color:#fff; text-align:center; cursor:pointer;}
+/* grid where  */
+.gridview .shelves{ position:relative;}
+.gridview .shelves b{ position:relative; display:block;height:20px; padding:0 0 0 5px; line-height:20px; cursor:pointer; font-weight:normal; z-index:1;}
+.gridview .shelves i{ margin:0 0 0 4px;}
+.gridview .shelves.active b{ border-color:#ccc; box-shadow:0 -1px 1px #ccc; background:#fff;}
+.shelves_info{ position:absolute; top:0px; left:0;box-shadow:0 0 3px #ccc; background:#fff; z-index:8;}
+.shelves_info a{ display:block; height:24px; padding:0 0 0 5px; line-height:24px; color:#444;}
+.shelves_info a:hover{ background:#fae8d4; font-weight:bold;}
+.shelves_info label{ display:block; height:24px; padding: 0 0px 0 5px; line-height:24px; color:#444;width:100%; }
+.shelves_info label:hover{ background:#fae8d4; font-weight:bold;}
+.shelves_info input{ margin:0 4px 0 0; vertical-align:-2px;}
+.shelves_info .btn{ height:32px; border-top:#e6e6e6; background:#f2f2f2; text-align:center;}
+.shelves_info .btn .orangebtn{ display:inline-block; width:48px; height:22px; margin:5px 0 0; line-height:22px; color:#fff;background:#f2784e;}
+.shelves_info .btn .orangebtn:hover{ background:#f2784e; font-weight:normal;}
+
+/* grid drag */
+.gridview .grid_drag { position:absolute;top:1px;overflow:visible;z-index:2; }
+.gridview .grid_drag div{ width:5px;position:absolute;background:none; }
+.gridview .grid_drag div:hover{ background:url(../images/gridview/drag_line.gif) repeat-y center;cursor: col-resize;  }
+/* grid page */
+.gridview .grid_page{ height:22px; padding:10px 15px; border:1px solid #ddd; border-top:none;}
+.gridview .grid_page .page_box{ padding:0;}
+.gridview .grid_page .page_box .page{ padding:0;}
+.gridview .pGroup{ float:left; line-height:22px;}
+.gridview .pGroup select{ width:50px; height:22px; border:1px solid #ccc; font-size:12px;}
+.gridview .btnseparator{ float:left; width:0; height:22px; border-right:1px solid #ccc; margin:0 10px;}
+.gridview .pageNum{ float:left;}
+.gridview .pageNum a{ color:#70a8e0; text-decoration:none;display:inline-block;border:1px solid #fff; }
+.gridview .pageNum a:hover{ border:1px solid #ccc; }
+.gridview .pageNum i{ margin:0 4px 0 0; font-size:16px;}
+.gridview .pageNum .first i, .gridview .pageNum .last i{ margin:0 5px; font-size:14px;line-height:20px; }
+.gridview .pageNum .prev i, .gridview .pageNum .next i{ margin:0 5px; font-size:20px; vertical-align:-2px;line-height:20px;}
+.gridview .pageNum .refresh i{ display:inline-block; margin:2px 5px 0; color:#3ead23;}
+.gridview .pageNum input{ width:30px; height:20px; margin:0 4px; padding:0; border:1px solid #ccc; text-align:center;}
+
+
+.page_box{ float:right; height:22px; padding:13px 0; text-align:center;}
+.page_box .page{ height:22px; line-height:20px;}
+.page_box .page a:hover{ text-decoration:none;}
+.page_box .page .total{ margin:0 0 0 6px; color:#333;}
+.page_box .page .total b{ margin:0 4px; font-weight:normal;}
+.page_box .page .text{ margin:0 0 0 6px;}
+.page_box .page .text input{ width:40px; height:20px; padding:0; border:1px solid #ddd; line-height:20px; text-align:center;}
+.page_box .page .button{ margin:0 0 0 6px;}
+.page_box .page .button input{ width:22px; height:22px; padding:0; border:1px solid #ddd; background:#fff; text-align:center; color:#333; cursor:pointer;}
+.page_box .page .more{ margin:0 0 0 6px; color:#a2adb8;}
+.page_box .page .prev,
+.page_box .page .next{ display:inline-block; width:20px; height:20px; margin:0 0 0 6px; border:1px solid #ddd; background:#fff; text-align:center; font-family:"宋体"; color:#424547;}
+.page_box .page .prev.no,
+.page_box .page .next.no{ background:#f5f5f5; color:#ccc; cursor:default;}
+.page_box .page .num{ display:inline-block; width:20px; height:20px; margin:0 0 0 6px; border:1px solid #ddd; background:#fff; text-align:center; color:#424547;}
+.page_box .page .num.active{ background:#70a8e0; color:#fff; font-weight:bold; border-color:#70a8e0;}
+
+/* --------------------------TreeView-------------------------- */
+.ntree{ font-size:12px;padding:10px 0 10px 15px;  }
+.ntree a{ display:inline-block; height:14px; padding:0 5px; border-radius:3px; line-height:14px; color:#333; text-decoration:none; white-space:nowrap;}
+.ntree a:hover{ color:#f2784e;}
+.ntree a.active{ font-weight:bold; color:#f2784e; }
+.ntree a.checkbox {	position:absolute; left:20px; top:1px; width:16px; height:14px; margin:0; padding:0; border-radius:0; background:#fff url(../images/treeview/ntree_checkbox.png) no-repeat;cursor:pointer;}
+.ntree a.select { background-image:url(../images/treeview/ntree_checkbox_s.png) }
+.ntree a i{ color:#b4b4b4;font-size:16px;margin: 0 4px 0 0; }
+.ntree a:hover i,.ntree a.active i{ color:#f2784e;}
+.ntree button{	position:absolute; width:16px; height:14px; border:none;background:#fff url(../images/treeview/ntree_button.png) no-repeat 0 1px; overflow:hidden; cursor:pointer; vertical-align:-2px; *vertical-align:2px; outline:none;}
+.ntree button.close{ height:14px; background-image:url(../images/treeview/ntree_button_close.png);}
+.ntree dl{ float:none; margin:0; padding:0; background:url(../images/treeview/ntree_line.png) repeat-y 8px 0;}
+.ntree dt{ position:relative;margin:0 0 6px; padding:0;height:14px; }
+.ntree dd.check a{ margin:0 0 0 15px;}
+.ntree dt.check a{ margin:0 0 0 34px;}
+.ntree dt.check a.checkbox,.ntree dd.check a.checkbox { margin:0; }
+.ntree dd a {margin: 0 0 0 0;}
+.ntree dt a {margin: 0 0 0 19px;}
+
+.ntree dd{ position:relative; margin:0 0 8px; padding:0 0 0 18px; background:url(../images/treeview/ntree_elbow.png) no-repeat 8px -11px;}
+.ntree dd.last{ background:#fff url(../images/treeview/ntree_elbow_end.png) no-repeat 8px -9px;}
+
+/* --------------------------OtherCalendar-------------------------- */
+.otherCalendar{float:left; clear:both; width:250px; border-radius:4px; box-shadow:3px 3px 3px #ccc; background:#fff; font-size:12px; overflow:hidden;}
+.otherCalendar .calendar_title { height:28px; line-height:28px; background:#4c73bf; font-size:14px; font-weight:bold; color:#fff; text-align:center; }
+.otherCalendar button { display:inline-block; width:20px; height:20px; margin:0; padding:0; border:none; cursor:pointer;}
+.otherCalendar .calendar_prev{ float:left; margin:4px 0 0 4px; background:url(../images/calendar/calendar.png) no-repeat 5px 3px;} 
+.otherCalendar .calendar_next{ float:right; margin:4px 4px 0 0; background:url(../images/calendar/calendar.png) no-repeat 5px -17px;} 
+.otherCalendar dl{ float:left; width:250px; overflow:hidden; background:#e6e6e6;}
+.otherCalendar dt{ float:left; width:28px; height:24px; border-right:1px solid #e6e6e6; line-height:24px; background:#e6e6e6; color:#999; text-align:center;}
+.otherCalendar dt.week{ width:36px; border-right:1px solid #e6e6e6;}
+.otherCalendar dd{ float:left; padding:0 0 10px; background:#fff;}
+.otherCalendar dd:after { content: '\20'; display: block; height: 0; clear: both }
+.otherCalendar dd a { display:block; float:left; width:28px; height:24px; border-bottom:1px solid #e6e6e6; border-right:1px solid #e6e6e6; line-height:24px; background:#fff; color:#333; text-align:center; text-decoration:none;}
+.otherCalendar dd a.week{ width:36px; background:#e6e6e6;}
+.otherCalendar .calendar_month { width:232px; margin:0 0 10px 8px; padding:0 9px 0 0; border-left:1px solid #e6e6e6; background:#fff;}
+.otherCalendar .calendar_month dd{ padding:0;}
+.otherCalendar .calendar_month dd a{ display:block; float:left; width:57px; height:32px; border-bottom:1px solid #e6e6e6; border-right:1px solid #e6e6e6; line-height:32px;}
+.otherCalendar a.select{ background:#eb932f; color:#fff;  }
+.otherCalendar dd a.select{ background:#eb932f; color:#fff;  }
+.otherCalendar dd a.day_over{ color:#ccc;}
+
+/* --------------------------Validation-------------------------- */
+.zq_validation{ background-color: #FDE8E9;position: absolute;color: #444444;font-weight: normal;line-height: 24px;padding: 0 10px;width: auto;border: 0;font-size: 12px; }
+.zq_validation i{font-size: 18px;color: #f2784e;float:left;display:block;position: absolute;top:3px; }
+.zq_validation span{white-space: nowrap;float:left;text-indent: 20px;}
+
+/* --------------------------Alter-------------------------- */
+.mask.small{ width:360px; height:160px; padding:0;}
+.mask .close{ height:32px;}
+.mask .close a{ float:right; display:block; margin:0 5px 0 0; font-size:24px;}
+.mask .close a i{ font-size:24px; color:#aeb2b8;}
+.mask .close a:hover{ opacity:.9;}
+
+/* --------------------------ZAlter-------------------------- */
+.mask .btn a{ display:inline-block; margin:0 10px 0 0;}
+
+.mask.error{ background:url(../images/zalert/mask_bg1.jpg) no-repeat;}
+.mask.waring{ background:url(../images/zalert/mask_bg2.jpg) no-repeat;}
+.mask.confirm{ background:url(../images/zalert/mask_bg3.jpg) no-repeat;}
+.mask.ok{ background:url(../images/zalert/mask_bg4.jpg) no-repeat;}
+.mask.simple{ width:360px; height:200px; padding:0;}
+.mask.simple .title{ height:5px; border-bottom:none; background:none;}
+.mask.simple .title a{ position:relative; z-index:1;}
+.mask.simple .title a i{ color:#fff;}
+.mask.simple .mask_box{ height:125px; margin:0; padding:20px 0 0 148px;border:0; }
+.mask.simple .tipstext{ display:table-cell; width:130px; height:60px; line-height:20px; font-size:14px; vertical-align:middle; text-align:center;}
+.mask.simple .btn{ text-align:right;}
+.mask .title a{ float:right; display:block; margin:5px 5px 0 0; font-size:24px;}
+.mask .title a i{ font-size:24px; color:#aeb2b8;}
+.mask .title a:hover{ opacity:.9;}
+
